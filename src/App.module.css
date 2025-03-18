@@ -1,0 +1,69 @@
+:root {
+    --border-radius: 10px;
+    --font-size: 16px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.main {
+    width: clamp(200px, 90%, 500px);
+    margin: 0 auto;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.make_task {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: var(--border-radius);
+}
+
+.tasks {
+    border: 1px solid black;
+    border-radius: var(--border-radius);
+    padding: 10px;
+}
+
+.tasks p {
+    margin: 0;
+}
+
+.uncompleted {
+    padding: 10px 0;
+    font-size: var(--font-size);
+}
+
+.completed {
+    padding: 10px 0;
+    color: darkslategrey;
+    font-style: italic;
+    text-decoration: line-through;
+}
+
+.uncompleted:hover, .completed:hover {
+    color: darkblue;
+    cursor: pointer;
+}
+
+.tasks_info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tasks_info {
+    font-size: calc(var(--font-size) - 2px);
+    color: dimgrey;
+}
+
+.tasks_info a {
+    cursor: pointer;
+    color: steelblue;
+    text-decoration: none;
+}
