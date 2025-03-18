@@ -1,12 +1,20 @@
-# React + Vite
+# Simple Todo
+A simple todo app with persitant storage
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Technology Stack
+- ReactJS
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Setup
+1. Clone Repo
+    ```bash
+    git clone https://github.com/WilliamM163/simple_todo
+    ```
+2. Install Dependencies
+    ```bash
+    cd simple_todo
+    npm install
+    ```
+3. Launch
+    ```bash
+    npm run dev
+    ```
